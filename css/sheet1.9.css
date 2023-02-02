@@ -1,0 +1,2438 @@
+DIV .list {
+	height: 200px;
+	overflow: auto;
+}
+
+HTML,BODY{margin:0; padding:0;}
+
+BODY{
+	font-family: Tahoma, Verdana, Arial, Helvetica, sans-serif;
+	color: #000000;
+
+	text-transform: none;
+	font-style: normal;
+	font-size: 12px;
+
+	background: url(/images/bg_dark.png);
+
+}
+TABLE,TD,TH{
+	font-size: 12px;
+	font-family: Tahoma, Verdana, Arial, Helvetica, sans-serif;
+}
+A {
+	text-transform: none;
+	color: black;
+}
+IMG{
+	border:0;
+}
+
+.text_msg {
+	font-size: 12px;
+	color: #bf4040;
+}
+.message{
+	font-size: 12px;
+	color: #bf4040;
+	margin: 1em 0;
+}
+/** Left Menu */
+TABLE.menuX TD{
+	padding-left: 46px;
+	height: 25px;
+	text-align: left;
+}
+TABLE.menuX TD IMG{
+	width: 130px;
+	height: 25px;
+}
+TABLE.menuX TD.split{	height: 20px;	}
+TABLE.menuX TD.split2{	height: 10px;	}
+TABLE.menuX TD.end{		height: 45px;	}
+.menu1{
+	padding-left: 46px;
+}
+.menu2 {
+	padding-left: 48px;
+}
+
+.text_head1 {
+
+	font-size: 11px;
+
+
+	font-weight: bold;
+	color: #febd4d;
+}
+.text_head2 {
+
+	font-size: 11px;
+	font-weight: bold;
+	color: #ffe0aa;
+}
+TD.text_head2{
+	height:24px;
+}
+.text_gold {
+
+	font-size: 15px;
+
+	padding-left: 10px;
+	padding-right: 10px;
+	padding-bottom: 9px;
+
+	font-weight: bold;
+	color: #ffedc3;
+}
+.text_pers {
+
+	font-size: 12px;
+
+	padding-left: 10px;
+	padding-right: 10px;
+	padding-bottom: 2px;
+
+	font-weight: bold;
+	color: #ffedc3;
+
+}
+.text_weap {
+
+	font-size: 12px;
+
+	padding-right: 10px;
+	padding-bottom: 10px;
+
+	font-weight: bold;
+	color: #ffedc3;
+}
+.menu_top2 {
+
+	font-size: 11px;
+
+	font-weight: bold;
+
+	color: #fffcd8;
+	text-decoration: none;
+}
+.menu_top {
+
+	font-size: 11px;
+
+	font-weight: bold;
+
+	color: #e2eaf2;
+	text-decoration: none;
+}
+a.menu_top:link {text-decoration:none; color:#ffffff}
+a.menu_top:active {text-decoration:underline; color:#ffffff}
+a.menu_top:visited {text-decoration:none; color:#ffffff}
+a.menu_top:hover {text-decoration:underline; color:#ffffff}
+
+A.highlight{ color:#FFD800 !important;}
+
+.menu_foot {
+
+	font-size: 10px;
+
+
+	color: #4e381c;
+}
+a.menu_foot:link {text-decoration:underline; color:#4e381c}
+a.menu_foot:active {text-decoration:underline; color:#ad8e66}
+a.menu_foot:visited {text-decoration:underline; color:#4e381c}
+a.menu_foot:hover {text-decoration:underline; color:#ad8e66}
+
+.text_top1,
+.text_top1 A{
+	font-size: 13px;
+	padding-left: 10px;
+	padding-right: 10px;
+	font-weight: bold;
+	text-decoration:none;
+
+	color: #ffa200;
+}
+.text_top2 A,
+.text_top2 {
+
+	font-size: 12px;
+
+	padding-left: 10px;
+	padding-right: 10px;
+	font-weight: bold;
+
+	color: #c0c0c0;
+	text-decoration:none;
+}
+.text_top3 A,
+.text_top3 {
+
+	font-size: 11px;
+
+	padding-left: 10px;
+	padding-right: 10px;
+	font-weight: bold;
+
+	color: #b6852f;
+	text-decoration:none;
+}
+.text_top_all A,
+.text_top_all {
+
+	font-size: 10px;
+
+	padding-left: 10px;
+	padding-right: 10px;
+	font-weight: bold;
+
+	color: #ffffff;
+	text-decoration:none;
+}
+.text_top_link A,
+.text_top_link {
+
+	font-size: 9px;
+
+	padding-left: 10px;
+	padding-right: 10px;
+
+	color: #ead69f;
+}
+.text_main_1 {
+	font-size: 12px;
+	padding-left: 5px;
+	padding-right: 5px;
+	font-weight: bold;
+}
+.text_main_1_pas {
+
+	font-size: 12px;
+
+	padding-left: 5px;
+	padding-right: 5px;
+	font-weight: bold;
+
+	color: #a9997e;
+}
+.text_main_2 {
+
+	font-size: 12px;
+
+	padding-left: 5px;
+	padding-right: 5px;
+
+
+}
+.text_main_3 {
+	font-size: 10px;
+	padding-left: 5px;
+	padding-right: 5px;
+}
+.text_main_4 {
+	font-size: 11px;
+	padding-left: 5px;
+	padding-right: 5px;
+
+}
+.text_main_4_2 {
+
+	font-size: 11px;
+	margin:10px;
+}
+.text_main_4_3 {
+	font-size: 11px;
+	padding-left: 5px;
+	padding-right: 5px;
+	line-height: 20px;
+}
+.text_main_5 {
+	font-size: 12px;
+	padding-left: 5px;
+	padding-right: 5px;
+	font-weight: bold;
+}
+.text_main_5_2 {
+	font-size: 12px;
+	font-weight: bold;
+
+}
+.text_main_5_3 {
+	font-size: 12px;
+}
+.text_main_6 {
+
+	font-size: 10px;
+
+	padding-left: 5px;
+	padding-right: 5px;
+
+	color: #583b1f;
+}
+.text_main_7 {
+	font-size: 12px;
+	padding-left: 5px;
+	padding-right: 5px;
+	font-weight: bold;
+	color: #4c1e10;
+}
+.text_main_7_1 {
+
+	font-size: 15px;
+
+	padding-left: 5px;
+	padding-right: 5px;
+	font-weight: bold;
+
+	color: #4c1e10;
+}
+.text_main_8 {
+	font-size: 11px;
+	padding-left: 2px;
+	color: #694722;
+}
+.text_main_9 {
+
+	font-size: 11px;
+
+	padding-left: 5px;
+
+	color: #aa3411;
+}
+.text_error {
+
+	font-size: 12px;
+
+	font-weight: bold;
+
+	color: #ff4200;
+}
+.text_minus {
+
+	font-size: 12px;
+
+	font-weight: bold;
+
+	color: #fb4200;
+}
+.text_plus {
+
+	font-size: 12px;
+
+	font-weight: bold;
+
+	color: #42a033;
+}
+.but {
+	border:#777700;
+
+}
+/** Главное */
+TABLE.btable{
+	width: 100%;
+	border-collapse:collapse;
+	background-color: #9EB5D0;
+}
+
+TABLE.dmenu{
+	width: 100%;
+	height: 347px;
+	border-collapse:collapse;
+	background-color: #9EB5D0;
+}
+TABLE.dmenu TR.banner1 TD{
+	background: url( /images/2y_baner_tile.jpg);
+}
+TABLE.dmenu TR.banner1 TD *{
+	background:none;
+}
+TABLE.dmenu TR.banner1 TD.clt{
+	width: 992px;
+	height: 347px;
+	background: url( /images/2y_main_baner.jpg) no-repeat;
+	vertical-align:bottom;
+	text-align:right;
+}
+
+DIV.menuGuest{
+	width: 210px;
+	height: 463px;
+	background:url(/images/bg_left_01.png) no-repeat;
+	text-align:left;
+	padding: 32px 0 0 ;
+}
+DIV.menuGuest A{
+	margin-left:47px;
+	display:block;
+}
+DIV.menuGuest B{
+	margin-left:48px;
+	display:block;
+}
+DIV.menuGuest DIV A{
+	margin-left:0;
+	display:inline;
+}
+DIV.menuGuest A.link2{	margin-top:16px;}
+DIV.menuGuest A.link3{	margin-top:22px;}
+DIV.menuGuest A.link4{	margin-top:21px;}
+DIV.menuGuest A.link5{	margin-top:16px;}
+DIV.menuGuest .premia2{
+	margin-top:20px;
+}
+.menuX1{
+	vertical-align:top;
+	padding-top:18px;
+}
+
+.menuGuest TD{
+	padding: 0 !important;
+	margin:0;
+	text-align:left;
+	border: 0;
+
+}
+.menuGuest TD.menu2{
+	padding-left:58px !important;
+	height:25px;
+}
+.menuGuest TD.menu2  IMG{
+	height:25px;
+	width: 130px;
+	border:0;
+	padding:0;
+	margin:0;
+}
+
+
+.hidden {display:none}
+#apDiv2 {
+	width:504px;
+	border:#ddc295 solid 0px;
+	margin:0px;overflow:auto;
+}
+#apDiv1 {
+	width:205px;
+	height:190px;
+	border:#ddc295 solid 0px;
+	margin:0px;
+	background: url(/images/bg_topper.png) no-repeat;
+	padding-top:5px;
+	padding-bottom:5px;
+
+}
+#apDiv1 DIV{
+	padding-bottom: 0px;
+	height: 190px;
+	width: 195px;
+	margin: 0px 5px 0;
+	overflow-x:	hidden;
+	overflow-y:	scroll;
+}
+
+
+#apDiv1 DIV .front_items{
+	margin-top: 0px;
+	margin-bottom: 5px;
+}
+
+.shadow5 {opacity:0.5; -moz-opacity:0.5; filter:alpha(opacity=50);}
+.shadow5 *{filter:alpha(opacity=50);}
+
+.shadow8 {opacity:0.8; -moz-opacity:0.8; filter:alpha(opacity=80);}
+.shadow8 *{filter:alpha(opacity=80);}
+.shadow9 {opacity:0.9; -moz-opacity:0.9; filter:alpha(opacity=90);}
+
+
+.counters IMG{opacity:0.3; -moz-opacity:0.3; filter:alpha(opacity=30);}
+.counters A IMG{opacity:0.3; -moz-opacity:0.3; filter:alpha(opacity=30);}
+.counters a:hover img {opacity:1.0; -moz-opacity:1.0; filter:alpha(opacity=100);}
+.hideCounter IMG{width:1px; height:1px; visibility:hidden;}
+/*.restart{
+	position:absolute;
+	text-align:center;
+	width: 100%;
+	font-size: 18px;
+	background: #ffc97b;
+	color: #d03400;
+	padding:10px 0;
+}
+*/
+.restart{
+
+	text-align:center;
+	width: 100%;
+	font-size: 18px;
+	background: #7e9abd;
+	border-bottom: 2px solid darkred;
+	color: white;
+	padding:10px 0;
+}
+.restart A {
+	color:white;
+	text-decoration:none;
+}
+.restart A:hover {
+	color:yellow;
+}
+.restart A.close{
+	font-size:10px;
+}
+
+
+#logoMail1{
+	position:absolute;
+	margin-top: -90px;
+	margin-left: 170px;
+}
+#logoMail2{
+	position:absolute;
+	margin-top: -40px;
+	margin-left: 35px;
+}
+
+DIV.premia{
+	width: 200px;
+	margin-right: 5px;
+	margin-top: 10px;
+	text-align:center;
+}
+DIV.premia2{
+	width: 200px;
+	margin-left: 7px;
+	margin-top: 0px;
+	margin-bottom: 10px;
+	text-align:center;
+}
+
+A#guildL{
+	position:absolute;
+	margin-top: -73px;
+	margin-left: -20px;
+}
+A#guildR{
+	position:absolute;
+	margin-top: -72px;
+	margin-left: 12px;
+}
+/* Online form*/
+TABLE.online{
+	width: 100%;
+	border-collapse:collapse;
+}
+TABLE.online TD{
+	height:14px;
+}
+TABLE.online TD.m1{
+	height:5px;
+}
+TABLE.online2 {
+	width: 100%;
+	height:220px;
+	border-collapse:collapse;
+	border:0;
+
+}
+TABLE.online2 TD{
+	width:200px;
+	height:15px;
+	text-align:center;
+}
+TABLE.online2 .m1{
+	vertical-align:bottom;
+	padding:0 0 0 1px;
+}
+TABLE.online2 .m2{
+	width:563px;
+}
+TABLE.online2 .m3{
+	height: 120px;
+}
+TABLE.ltop{
+	width: 210px;
+	height: 350px;
+	border:0;
+	border-collapse:collapse;
+	background: url(/images/bg_right7.png);
+}
+TABLE.ltop .menu3{
+	height:22px;
+	text-align:left;
+	vertical-align:middle;
+	padding-left: 35px;
+}
+TABLE.ltop .menu4{
+	height:20px;
+	text-align:left;
+	vertical-align:middle;
+	padding-left: 35px;
+}
+
+/** NEW */
+.news{
+	font-size:10px;
+	font-family:Verdana;
+	padding: 10px;
+}
+
+.news .date{
+	font-size: 12px ;
+}
+
+.news .comments{
+	float:right;
+	display:block;
+}
+
+
+.news .subject {
+	font-weight: bold;
+
+}
+.news .body{
+	margin: 2em 0 10px;
+
+	font-size:10px;
+	line-height:14px;
+}
+.news .item {
+	margin-bottom: 5em;
+}
+.news A{
+	color: black;
+}
+
+.news A:hover{
+	color:#A88876;
+}
+
+.num_plus {
+	color: #694722;
+	padding-left: 2px;
+}
+.num_minus {
+	color: #d20000;
+	padding-left: 2px;
+}
+.num_zero {
+
+}
+
+/** Front page - items */
+TABLE.front_items{
+	border:0;
+	border-collapse:collapse;
+
+}
+TABLE.front_items TD{
+	padding: 0 !important ;
+	width:60px;
+	height:80px;
+}
+TABLE.front_items IMG{
+	width: 60px;
+	height: 60px;
+	bordeR: 0 ;
+}
+TABLE.front_items TR.cmd TD{
+	height: 20px;
+}
+TABLE.front_items A IMG,
+TABLE.front_items IMG.cmd{
+	height:20px;
+}
+TABLE.front_items span.amount{
+	float:right;
+	z-index:10;
+	position:absolute;
+	margin-top:10px;
+	color:white;
+	font-size:12px;
+	font-weight:bold;
+}
+
+/** Front page - not logged */
+
+TABLE.main_page{
+	margin: 0 10px 0px;
+}
+TABLE.main_page TD.one{
+	width: 370px;
+}
+DIV.main_flags{
+	padding:0;
+	margin:5px 25px 0;
+	text-align:left;
+}
+DIV.main_flags IMG{
+	width: 30px;
+}
+TD#topcmd A{	margin:30px 30px 15px;display:block;}
+/** globals */
+.png {behavior: url(css/iepngfix.htc);}
+.center {text-align:center !important;}
+.right {text-align:right !important;}
+.left {text-align:left !important}
+.top {vertical-align:top !important}
+.bottom {vertical-align:bottom !important}
+.middle {vertical-align:middle !important}
+.nobold {font-weight:normal  !important}
+.inline {display:inline;}
+
+.red{		color:#aa0000;		}
+.green{		color:#037100;	}
+.bgred{		background-color:#aa0000;		}
+.myguild{	background-color:#eadec9;	}
+
+.asc  {background: url(/images/order_up.png) right center no-repeat;cursor:pointer;}
+.desc {background: url(/images/order_down.png) right center no-repeat;cursor:pointer;}
+
+
+IMG.item{	width: 180px;	height:180px;}
+IMG.item2{	width: 60px;	height:60px;}
+
+TABLE.default{
+	width:100%;
+	border-collapse:collapse;
+}
+TABLE.default_h22 TD{
+	line-height: 22px;
+}
+.h25 {line-height:25px;}
+.h22 {line-height:22px;}
+.h20 {line-height:20px;}
+DIV.inputSmall TABLE.default{
+	width: 500px;
+}
+DIV.inputSmall TABLE.default TABLE.default{
+	width: auto;
+}
+TABLE.default TH{
+	background: #d6c29d;
+	height: 30px;
+	font-size:11px;
+}
+
+TABLE.default TH.asc,
+TABLE.default TH.desc{
+	cursor:pointer;
+	background: #d6c29d  right center no-repeat;
+	font-weight:normal;line-height:30px;
+	text-decoration:underline;
+}
+
+TABLE.default TH.asc  {background-image: url(/images/order_up.png);}
+TABLE.default TH.desc  {background-image: url(/images/order_down.png);}
+
+TABLE.default .nopad{	height:auto;}
+TABLE.default TR.nopad TD,
+TABLE.default TR.nopad TH	{height:auto;}
+
+TABLE.default_height TD{
+	height: 20px;
+}
+TABLE.default_nobold TH{
+	font-weight:normal;
+}
+/** Аватар на всех страницах */
+DIV.avatar,
+DIV.avatar DIV,
+DIV.avatar IMG{
+	width: 190px !important; height:240px !important;
+	behavior: url(css/iepngfix.htc);
+	background-repeat: no-repeat !important;
+}
+
+DIV.av_small,
+DIV.av_small DIV,
+DIV.av_small IMG{
+	width: 126px !important;
+	height: 160px !important;
+}
+DIV.av_small IMG{
+	behavior: none !important;
+}
+
+
+/** Avatar page */
+TABLE.up_avatar{
+	width: 100%;
+	height: 150px;
+}
+
+TABLE.up_avatar TD.avatar{
+	width: 190px;
+	height: 200px;
+}
+TABLE.up_avatar TABLE.default{
+	width: 320px;
+}
+/*
+TABLE.up_avatar TD.avatar{
+	width: 190px;
+	height: 200px;
+}
+
+
+/** Shop items pages: smith, etc. */
+TABLE.shop_items{
+	width: 90%;
+	border-collapse:collapse;
+}
+TABLE.shop_items TH{
+	font-size: 12px;
+	font-weight:bold;
+	background: #e3d4b7;
+	height: 31px;
+}
+TABLE.shop_items TH .normal{
+	font-weight: normal;
+}
+TABLE.shop_items TD{
+	height: 180px;
+	vertical-align: top;
+}
+TABLE.shop_items TD.image{
+	width: 180px;
+	padding: 0;
+}
+
+TABLE.shop_items DIV.desc{
+	height: 32px;
+	line-height:32px;
+	border-top: 1px solid #eddec7;
+	background: #d6c29d;
+	font-weight: bold;
+	vertical-align:top;
+	padding-left: 5px;
+	cursor:none;
+
+}
+TABLE.shop_items DIV.desc2{
+	height: 116px;
+	font-size:11px;
+	padding-left: 5px;
+	overflow:auto;
+}
+
+TABLE.shop_items DIV.price{
+	height: 32px;
+	background: #d6c29d;
+	font-weight: bold;
+	padding-left: 5px;
+	line-height:32px;
+
+
+
+}
+TABLE.shop_items DIV.price span.price{
+	line-height: 22px;
+
+	vertical-align:middle;
+	display:block;
+	height: 22px;
+	padding: 0;
+	padding-top:10px;
+
+
+}
+TABLE.shop_items INPUT.cmd{
+	float:right;
+}
+
+
+/** Mine */
+
+div.mine{
+	width: 544px;
+	padding-bottom: 1em;
+
+}
+
+div.mine TABLE.up{
+	width: 100%;
+	height: 150px;
+}
+
+div.mine TABLE.up TD.avatar{
+	width: 190px;
+	height: 200px;
+
+}
+
+DIV.mine TABLE.info{
+	width: 100%;
+}
+DIV.mine TABLE.info TD{
+	vertical-align: top;
+	width: 50%;
+}
+DIV.mine TABLE.info DIV.inputGroup{
+	margin-bottom:10px;
+}
+
+DIV.mine TABLE.stat TH{
+	text-align:left;
+	font-size:12px;
+	font-weight:bold;
+}
+DIV.mine TABLE.stat TD{
+	width: 50px;
+	font-size:12px;
+	color: #4c1e10;
+	text-align:right;
+}
+DIV.mine TABLE.stat TD.kr{
+	background: url(/images/ico_krist1.png) left top no-repeat;
+	height: 18px;
+	width: 30px;
+	padding:0;
+}
+
+/** Smith */
+TABLE.stat_smith{
+	width: 230px;
+}
+TABLE.stat_smith TD{
+	width: 80px;
+}
+DIV.smith_training TABLE.stat{
+	width: 170px;
+}
+
+
+TABLE.smith_game_head{
+	width:480px;
+
+}
+TABLE.smith_game_head IMG{
+
+
+	width: 60px;
+}
+TABLE.smith_game_head .buy IMG{
+	width:62px;
+}
+TABLE.smith_game_head .txt{
+	width: 100px;
+}
+
+TABLE.smith_lease_head {
+	width: 501px;
+}
+TABLE.smith_lease_head .txt{
+	width:	107px;
+}
+
+/** Smith - items, Auction - items */
+TABLE.item{
+	width: 485px;
+	border-collapse:collapse;
+	padding:0;
+}
+TABLE.item TD{
+	height: 20px;
+
+}
+TABLE.item TD.img{
+	width: 180px;
+	height: 180px;
+}
+TABLE.item TD.img IMG{
+	width: 180px;
+	height: 180px;
+}
+ TABLE.item .name{
+	height:33px;
+}
+TABLE.item TD.cmd{
+	text-align:right !important;
+	padding:0;
+}
+TABLE.item .cmd2{
+	padding-bottom: 10px !important;
+}
+
+/** Smith - lease */
+
+TABLE.lease_games{
+	width: 90%;
+}
+
+TABLE.lease_games TD.image{
+	width:100px;
+	height:100px;
+}
+
+TABLE.lease_games DIV.desc1{
+	height:20px;
+	font-weight: bold;
+}
+TABLE.lease_games DIV.desc2{
+}
+
+TABLE.lease_games TD.but{
+
+}
+
+/** Smith - own */
+
+TABLE.own_cells{
+	width: 90%;
+}
+TABLE.own_cells TD{
+	vertical-align:top;
+}
+
+TABLE.own_cells TD.image{
+	width: 100px;
+	height:75px;
+
+}
+
+TABLE.own_games DIV.desc1{
+	height:20px;
+}
+
+/* ШАманство */
+TABLE.shaman_rocks{
+	border-collapse:collapse;
+	width:100%;
+}
+TABLE.shaman_rocks TD{
+	width:	60px;
+	text-align:center;
+}
+TABLE.shaman_rocks TR.rocks{	height: 60px}
+
+TABLE.shaman_rocks TD.shaman_1{	background: url(/images/items/SmithRock1s.jpg) no-repeat;	}
+TABLE.shaman_rocks TD.shaman_2{	background: url(/images/items/SmithRock2s.jpg) no-repeat;	}
+TABLE.shaman_rocks TD.shaman_3{	background: url(/images/items/SmithRock3s.jpg) no-repeat;	}
+TABLE.shaman_rocks TD.shaman_4{	background: url(/images/items/SmithRock4s.jpg) no-repeat;	}
+TABLE.shaman_rocks TD.shaman_5{	background: url(/images/items/SmithRock5s.jpg) no-repeat;	}
+TABLE.shaman_rocks TD.shaman_6{	background: url(/images/items/SmithRock6s.jpg) no-repeat;	}
+TABLE.shaman_rocks TD.shaman_7{	background: url(/images/items/SmithRock7s.jpg) no-repeat;	}
+TABLE.shaman_rocks TD.shaman_8{	background: url(/images/items/SmithRock8s.jpg) no-repeat;	}
+
+TABLE.shaman_magic {width: 100%;border-collapse:collapse;}
+TABLE.shaman_magic TD {vertical-align:top;background:#eaddca; border-bottom: 4px solid #dbcab0;}
+TABLE.shaman_magic TD.img{width: 50px;}
+TABLE.shaman_magic TD.cmd{width: 100px;vertical-align:bottom;}
+
+DIV.shaman_items	{
+	width: 		502px;
+	overflow-x:	auto;
+	overflow-y:	hidden;
+}
+DIV.shaman_items TABLE{
+	border-collapse: collapse;
+}
+DIV.shaman_items TD{
+	width: 20px;
+	text-align:center;
+}
+DIV.shaman_items	TD.cell{
+	width: 60px;
+}
+
+TABLE.shaman_magic_price{
+	width: 100%;
+	border-collapse: collapse;
+}
+TABLE.shaman_magic_price TD.img{
+	width: 50px;
+}
+TABLE.shaman_magic_price TD.price{
+	width: 120px;
+	text-align:	center;
+}
+TABLE.shaman_magic_price TD.price INPUT.cmd{
+	width: 100px;
+
+}
+/** Уникальные вещи */
+TABLE.shaman_uniq {
+	width: 100%;
+}
+TABLE.shaman_uniq TD{
+	width: 50%;
+	vertical-align:top;
+}
+TABLE.shaman_uniq TD TD{
+	width: auto;
+	height:20px;
+}
+TABLE.shaman_uniq TD.img{
+	width: 80px;
+	text-align:center;
+}
+TABLE.shaman_uniq TD.img IMG{
+	width: 60px;
+	height:60px;
+}
+TABLE.shaman_uniq TD IMG{
+	height:14px;
+}
+TABLE.shaman_uniq INPUT{
+	width: 30px;
+	background: #dbcbad;
+	border: none;
+	text-align:center;
+	height: 15px;
+}
+
+
+/** Описание предмета */
+DIV.item_desc{
+	height: 146px;
+	overflow-x:	hidden;
+	overflow-y:	scroll;
+	text-align:justifY;
+}
+
+/** shop */
+TABLE.items_shop{
+	border-collapse:collapse;
+}
+DIV.mine TABLE.items{
+	width: 90%;
+	border-collapse:collapse;
+}
+TABLE.items_shop TH,
+DIV.mine TABLE.items TH{
+	font-size: 12px;
+	font-weight:bold;
+	background: #e3d4b7;
+	height: 31px;
+}
+TABLE.items_shop TH .normal,
+DIV.mine TABLE.items TH .normal{
+	font-weight: normal;
+}
+TABLE.items_shop TD,
+DIV.mine TABLE.items TD{
+	height: 180px;
+	vertical-align: top;
+}
+TABLE.items_shop TD.image,
+DIV.mine TABLE.items TD.image{
+	width: 180px;
+	padding: 0;
+}
+TABLE.items_shop DIV.desc,
+DIV.mine TABLE.items DIV.desc{
+	height: 32px;
+	line-height:32px;
+	border-top: 1px solid #eddec7;
+	background: #d6c29d;
+	font-weight: bold;
+	vertical-align:top;
+	padding-left: 5px;
+
+}
+TABLE.items_shop DIV.desc2,
+DIV.mine TABLE.items DIV.desc2{
+	height: 116px;
+	font-size:11px;
+	padding-left: 5px;
+}
+
+TABLE.items_shop  DIV.price,
+DIV.mine TABLE.items DIV.price{
+	height: 32px;
+	background: #d6c29d;
+	font-weight: bold;
+	padding-left: 5px;
+	line-height:32px;
+
+}
+TABLE.items_shop DIV.price span.price,
+DIV.mine TABLE.items DIV.price span.price{
+	line-height: 22px;
+
+	vertical-align:middle;
+	display:block;
+	height: 22px;
+	padding: 0;
+	padding-top:10px;
+	float: left;
+}
+TABLE.items_shop DIV.price A.buy,
+DIV.mine TABLE.items DIV.price A.buy{
+	float:right;
+}
+
+TABLE.items_shop INPUT.cmd,
+DIV.mine TABLE.items INPUT.cmd{
+	float:right;
+
+}
+
+DIV.opening{
+	height: 200px;
+	width: 100%;
+	background: url(/images/mine_land.jpg) center top no-repeat;
+}
+TABLE.opening DIV.inputGroup DIV.body {
+
+	margin-top: 0 !important;;
+	margin-bottom: 0 !important;;
+
+}
+TABLE.mine_open{
+	width: 245px;
+	border-collapse:collapse;
+}
+TABLE.mine_open TD.img{
+	width: 60px;
+	height: 60px;
+	background:none;
+
+}
+TABLE.mine_open TD{
+	background: #e3d4b7;
+	height: 25px;
+	font-size: 12px;
+	font-weight:bold;
+}
+TABLE.mine_open TD.row2{
+	background: #d5c7a4;
+	font-size: 11px;
+	font-weight:normal;
+}
+
+DIV.mine_mine DIV.inputGroup DIV.content DIV.body{
+	font-size: 11px;
+}
+DIV.mine_mine DIV.mine_text{
+	padding: 10px;
+}
+
+TABLE.full{
+	width: 100%;
+}
+TD.half{width: 50%; vertical-align:top;}
+
+
+DIV.adminInfo{	text-align: center; position:absolute; top:0; left: 10%;background: #993333; color:lightgray; margin:0 auto;}
+
+
+
+/** Заголовки страниц */
+
+DIV.blockHead{
+	width: 574px;
+	height: 60px;
+	background: url(/images/bg_head.png) center top no-repeat;
+	padding-top: 10px;
+
+}
+
+/** Основное окошко для разных вводов */
+DIV.inputGroup{
+	width: 100%;
+	background: url(/images/k09.png) repeat;
+	font-size: 11px;
+	margin-bottom:5px;
+
+}
+.blockTitle,
+.blockTitle2,
+DIV.inputGroup DIV.title{
+	background: #d6c29d;
+	margin: 0 15px;
+	text-align:center;
+	font-size: 12px;
+	font-weight: bold;
+	padding: 7px 0;
+	vertical-align: bottom;
+}
+DIV.inputGroup DIV.title2{
+	background:none;
+	height:1px !important;
+	line-height:1px !important;
+	font-size:1px;
+}
+.blockTitle2{
+	background: #e3d4b7;
+}
+
+DIV.inputGroup DIV.c1{
+	background: url(/images/k04.png) right top repeat-y;
+
+}
+DIV.inputGroup DIV.top{
+	height: 10px;
+	background: url(/images/k02.png) 10px top repeat-x;
+	font-size:5px;
+}
+DIV.inputGroup DIV.top1{
+	background: url(/images/k01.png) left top no-repeat;
+	height: 10px;
+}
+DIV.inputGroup DIV.top2{
+	height: 10px;
+	background: url(/images/k03.png) right top no-repeat;
+}
+DIV.inputGroup DIV.content{
+	background: url(/images/k08.png) left top repeat-y;
+	padding: 0;
+	/*border: 1px solid red;*/
+}
+
+DIV.inputGroup DIV.content DIV.body{
+	margin: 10px 10px 0px 10px;
+
+}
+
+DIV.inputGroup DIV.content DIV.b2{
+	margin: 0px 10px 0px 5px;
+	padding-bottom:1px;
+	padding-top:4px;
+
+}
+DIV.inputGroup DIV.content DIV.inputGroup DIV.content DIV.text{
+	width:95%;
+}
+DIV.inputGroup DIV.down{
+	height: 10px;
+	font-size:5px;
+	background: url(/images/k06.png) 10px top repeat-x;
+}
+DIV.inputGroup DIV.down1{
+	height: 10px;
+	background: url(/images/k07.png) left top no-repeat;
+}
+DIV.inputGroup DIV.down2{
+	height: 10px;
+	background: url(/images/k05.png) right top no-repeat;
+}
+/* Small one */
+DIV.inputSmall{
+	width: 100%;
+	margin:0;
+
+}
+DIV.inputSmall DIV.content{
+	height: 100%;
+}
+
+DIV.inputNoHeight DIV.content{
+	height: auto;
+}
+DIV.inputSmall DIV.content DIV.body{
+	text-align:center;
+	margin-bottom: 0px;
+	padding-bottom:1px;
+}
+
+h5.title{
+	font-size: 12px;
+	padding-left: 5px;
+	padding-right: 5px;
+	font-weight: bold;
+
+	display:block;
+	text-align:center;
+	margin:0 0 1em 0;
+
+}
+
+DIV.search{
+	margin: 0 25px;
+}
+TABLE.search_result{
+	border-collapse:collapse;
+	width: 504px;
+	margin-top: 5px;
+}
+
+TABLE.search_result TH{
+	text-align:center;
+	background: url(/images/k11.png) repeat;
+	font-size: 13px;
+	font-weight: normal;
+}
+.row_1,
+TD.row_1,
+TH.row_1,
+TR.row_1 TH,
+TR.row_1 TD{
+	background: url(/images/k10.png) left top repeat !important;
+}
+.row_2,
+TD.row_2,
+TH.row_2,
+TR.row_2 TH,
+TR.row_2 TD{
+	background: url(/images/k09.png) left top repeat;
+}
+.row_3,
+TD.row_3,
+TH.row_3,
+TR.row_3 TH,
+TR.row_3 TD,
+DIV.row_3{
+	background: url(/images/k00.png) left top repeat;
+	padding-top:3px;
+}
+TD.row_4,	TH.row_4,	TR.row_4 TH,	TR.row_4 TD, .row_4{
+	background: #d6c29d;
+}
+TD.row_5,	TH.row_5,	TR.row_5 TH,	TR.row_5 TD,	.row_5{
+	border-top: 1px solid #ebddc5 !important;
+
+}
+TD.row_6,	TH.row_6,	TR.row_6 TH,	TR.row_6 TD{
+	background: #d8c6a5 ;
+}
+
+.head_line {
+	border-bottom: 1px solid #ebddc5 !important;
+	line-height:30px;
+	font-size: 12px;
+	padding-left: 5px;
+	padding-right: 5px;
+	font-weight: bold;
+}
+
+
+TABLE.search_result TD.race{
+	height: 22px;
+	text-align:center;
+}
+TABLE.search_result TD.name{
+	padding-left:50px
+}
+
+TABLE.search_result TD.clan{
+	padding-left:20px
+}
+
+/** Front page */
+DIV.front{
+	width: 524px;
+}
+DIV.front TABLE{
+}
+DIV.front TABLE.character{
+	width: 100%;
+}
+DIV.front TD{
+	vertical-align: top;
+	padding:0;
+}
+DIV.front TABLE.character TD.avatar{
+	text-align:left;
+}
+DIV.front TABLE.character TD.avatar TABLE{
+	border-collapse:collapse;
+	width: 300px;
+	margin-right:5px;
+
+}
+DIV.front TD.avatar TABLE IMG{
+	width: 60px;
+	height: 60px;
+
+}
+
+DIV.front TD.avatar IMG.moral{
+	width: 191px;
+	height:40px;
+
+}
+/*
+DIV.front TD.avatar TABLE TD.avatar IMG.avatar{
+	margin:0;
+}*/
+/*
+DIV.front TD.avatar TABLE TD.avatar IMG{
+	margin:-1px 0 0 ;
+}*/
+
+DIV.front TD.avatar IMG.avatar_s{
+	width: 191px;
+	height: 20px;
+
+}
+DIV.front TD.avatar TD.avatar IMG.avatar{
+	width: 190px;
+	height: 240px;
+}
+DIV.front TD.items{
+	vertical-align:top;
+}
+
+DIV.front TABLE.skills IMG,
+DIV.front TABLE.expHP IMG{
+	height: 18px;
+}
+
+
+TABLE.skills TD,
+DIV.front TABLE.expHP TD{text-align:center; font-size: 11px; vertical-align:middle;height:18px}
+
+DIV.front TD.stats TABLE,
+TABLE.skills{
+	border-collapse:collapse;
+}
+DIV.front TD.skills{
+	padding:0;
+	text-align:center;
+
+}
+DIV.front TD.skills TABLE{
+	margin: 0 0 0 0;
+
+	width: 301px;
+}
+
+DIV.front TD.stats{
+	padding:0;
+	text-align:center;
+}
+
+TABLE.skills IMG.ico{	margin-right:6px}
+TABLE.skills TD.c2{	width: 60px;	}
+TABLE.skills TD.c3{	width: 160px;}
+TABLE.skills TD.c4{	width: 46px;}
+TABLE.skills TD.c5{	width: 40px;text-align:right;padding-right:2px;}
+
+DIV.front TD.stats{
+	height: 210px;
+}
+DIV.front TABLE.stats TD{text-align:left; font-size:11px; height:18px;padding:0 5px;vertical-align:middle;}
+
+DIV.front TD.stats TABLE TD.left{width: 83px}
+DIV.front TD.stats TABLE{
+	width: 195px;
+	margin: 0;
+
+
+}
+DIV.front TD.stats TABLE TD{
+	vertical-align:top;
+}
+
+/** Pet info */
+TABLE.pet_info{
+	width: 301px !important;
+}
+TABLE.pet_info TD.half{
+	width: 150px !important;
+	vertical-align:top;
+}
+TABLE.pet_info TD.half TABLE{
+	width: 150px !important;
+	margin:0;
+}
+TABLE.pet_info TD.left{
+	padding-right: 1px;
+}
+
+TABLE.pet_info TH{
+	width: 301px !important;
+}
+TABLE.pet_info TD{
+	font-size:11px;
+	vertical-align:middle;
+
+}
+TABLE.pet_info TD.polzun{
+	width: 240px !important;
+	vertical-align:top;
+}
+TABLE.pet_info TABLE.polzun{
+	width: 100% !important;
+
+	margin-left:0 !important;
+}
+TABLE.pet_info TABLE.polzun TD{
+	height:30px !important;
+}
+TABLE.pet_info TABLE.polzun IMG{
+	margin:0 !important;
+}
+TABLE.pet_info TD.img{
+	width:70px !important;
+	text-align:left;
+}
+TABLE.pet_info TD.nopad{
+	padding:0;
+}
+TABLE.pet_info DIV.pet_none{
+	height:		80px;
+	padding-top:20px;
+	vertical-align:bottom;
+	text-align:center;
+	background: url(/images/k10.png) left top repeat !important
+}
+
+DIV.front TABLE.pet_info TH{
+	height: 18px;
+
+}
+/*
+TABLE.pet_info TD TD{
+	width: 20px !important;
+
+	display:none;
+}
+
+TABLE.pet_info TD.c3{
+	text-align:right;
+	padding-right:20px !important;
+}
+
+TABLE.pet_info TABLE{
+	width: 150px !important;
+	margin:0;
+}
+*/
+
+/* Bonus to some stat */
+.bonus{
+	font-size: 11px;
+	color: #694722 !important;
+}
+/** Global icons */
+IMG.ico{
+	width: 16px !important;
+	height: 16px !important;
+}
+IMG.ico2{
+	width: 18px !important;
+	height: 18px !important;
+}
+#tooltip{
+	padding: 5px;
+	background: #e3d4b7;
+	width: 300px;
+}
+#tooltip2{	/* for items */
+	padding: 0px;
+	background: #e3d4b7;
+	width: 360px;
+}
+
+/** Страница дозора */
+DIV.dozor .select_type{
+	width: 180px;
+	margin-bottom: 10px;
+}
+DIV.dozor .select_level{
+	width: 180px;
+}
+DIV.dozor .select_auto_watch{
+	width: 120px;
+	margin-bottom: 10px;
+}
+DIV.dozor SELECT{
+	text-align:center;
+}
+
+DIV.dozor #name{
+	margin-top: 5px;
+}
+
+DIV.dozor .small{
+	width: 25px;
+}
+/** Атака */
+TABLE.attack {margin: 0 10px;width: 500px}
+TABLE.attack TD{
+	vertical-align:top;
+}
+TABLE.attack TD.lpart{width: 190px;}
+
+TABLE.attack TABLE.skills{
+	width: 290px;
+}
+TABLE.attack TABLE.skills TD.left{
+	width: 20px;
+}
+TABLE.attack TABLE.skills TD {text-align:left;}
+
+TABLE.attack TABLE.skills TD.c2{
+	width: 70px !important;
+}
+TABLE.attack TABLE.skills TD.c3{
+	width: 170px !important;
+}
+TABLE.attack TABLE.skills TD.c4{
+	width: 30px !important;
+}
+
+TABLE.attack .enemy_message{
+	padding: 0 10px;
+	text-align: center;
+	vertical-align: middle !important;
+
+}
+
+TABLE.attack DIV.enemy_message{
+
+	height: 350px;
+
+	overflow-x:	hidden;
+	overflow-y:	scroll;
+}
+
+DIV.fight_log{
+	background:url(/images/pic_log.jpg) no-repeat;
+	width:	504px;
+	padding-top: 35px;
+	padding-bottom:35px;
+}
+/** ИНфа о персонаже */
+TABLE.playerInfo{
+	width: 500px;
+}
+TABLE.playerInfo	TD.left{
+	width:191px;
+	height:280px;
+
+}
+TABLE.playerInfo	TD.right{
+	height:60px !important;
+}
+TABLE.attack  TD.enemy_message{
+	height:220px;
+}
+
+TABLE.playerInfo	.enemy_message{
+	/*overflow:scroll;
+	*/
+}
+TABLE.playerInfo	TD.info{
+	width:350px;
+
+}
+TABLE.playerInfo	TD.info .blockTitle2,
+TABLE.playerInfo	TD.info .blockTitle{
+	margin: 0 5px;
+}
+
+DIV.playerInfo TD.stats{
+	height: 160px;
+	padding-left:5px;
+
+}
+DIV.playerInfo TD.stats TABLE TD{
+	vertical-align:middle;
+}
+
+/** зверь в логах боя */
+TABLE.fightPet{
+	margin-left:5px;
+	width: 237px !important;
+}
+TABLE.fightPet TD.img{	width:60px;	}
+
+TABLE.fightPet TABLE.default{
+	width:160px !important;
+}
+TABLE.fightPet TABLE.default TD{
+	text-align:center;
+}
+
+
+/* Начнём обобщать */
+DIV.contentBlock{
+	width: 540px;
+}
+
+DIV.blockText{
+	margin: 0 20px;
+}
+span.polzun IMG{height:18px}
+
+
+DIV.buttons	{margin: 5px 0 ;}
+DIV.groups {padding:0;margin:5px 0;}
+/** Страницы */
+DIV.page {min-height: 200px;margin:0 20px;text-align:left;}
+* HTML DIV.page{height:200px;}
+
+/** Почта */
+A.fight_draw	{	}
+A.fight_win		{	color: #037100;}
+A.fight_loss	{	color: #aa0000;}
+
+
+/** Рейтинг */
+TR.place_1		TD{background:url(/images/k24.png);}
+TR.place_2		TD{background:url(/images/k23.png);}
+TR.place_3		TD{background:url(/images/k22.png);}
+
+TR.place_me		TD{background:#8bcc5b;}
+TR.place_odd	TD{background:url(/images/k10.png);}
+
+TR.place_clan		TD{background:#a6ce78;}
+TR.place_war		TD{background:#ed8a77;}
+TR.place_union		TD{background:#caabbe;}
+
+/** Теги */
+A.profile		{font-size:12px;text-decoration:none;font-weight:bold;}
+A.profile:hover		{text-decoration:underline;}
+span.size_1		{font-size:8px;}
+span.size_2		{font-size:20px;}
+DIV.tags{		 padding: 2px; height: 20px; text-align:center;	}
+DIV.tags IMG	{cursor:pointer;}
+span.clear, DIV.clear {		clear:both;}
+
+DIV.tags_colors	{z-index:20;position:absolute; margin-left: 120px;display:none;}
+DIv.tags_colors	TABLE{border-collapse:collapse;}
+DIv.tags_colors	TD {width: 25px;height:25px;cursor:pointer;}
+
+A.back	{width: 100px;	display:block; margin-bottom:5px;}
+/** Аукцион */
+TABLE.trade{	width:510px; border-collapse:collapse;	}
+TABLE.trade TD{	padding:0;	}
+TABLE.trade TH {	background: #d6c29d;font-weight:normal;line-height:30px;}
+TABLE.trade TH A{	padding-right: 10px; }
+TABLE.trade TH.active_asc A,
+TABLE.trade TH.active_desc A{	}
+
+TABLE.trade TH.active_asc  A {background: url(/images/order_up.png) right center no-repeat;}
+TABLE.trade TH.active_desc  A {background: url(/images/order_down.png) right center no-repeat;}
+
+TABLE.trade TH.category	{width: 70px}
+TABLE.trade TH.bidder	{width: 120px}
+
+/* Active */
+TABLE.trade TH.seller,
+TABLE.trade TH.bid,
+TABLE.trade TH.buy		{width: 110px}
+
+TABLE.trade TH.ended,
+TABLE.trade TH.sold,
+TABLE.trade TH.winner		{width: 150px}
+
+
+
+
+.trade_item {width: 100%;}
+.trade_item TH {text-align:left;}
+.trade_item SELECT,
+.trade_item INPUT{width: 150px;}
+.trade_item INPUT.check{width: 15px;}
+.trade_item INPUT.image{width: auto;}
+.trade_item .img {vertical-align:top}
+
+TABLE.trade .buy IMG{width: 60px}
+TABLE.trade .buy IMG.cmd{width: 62px}
+
+DIv.trade TABLE.trade_columns {width:100%;}
+DIV.trade .l_col {text-align:left;width: 200px; vertical-align:top;}
+DIV.trade .r_col {text-align:right;vertical-align:top; }
+DIV.trade .r_col DIV.body{text-align:right;}
+DIV.trade .r_col DIV.body TABLE.front_items{margin: 0 auto;}
+DIV.trade TABLE.buy {width: 170px;}
+DIV.trade TABLE.stat {width: 170px;}
+DIV.trade TABLE.stat TH{text-align:center;padding: 3px 0;}
+DIV.trade TABLE.stat TD.left {width: 60px; }
+DIV.trade TABLE.stat TD {width: 110px; }
+
+
+TABLE.bags TD {height: 60px;}
+TABLE.bags TD.radio {width: 17px !important; text-align:right;}
+
+DIV.trade TABLE.items DIV.desc2{
+	height:100px;
+	overflow:auto;
+
+}
+DIV.trade TABLE.items DIV.desc3{
+	font-size:11px;
+	padding-left: 5px;
+	font-weight:bold;
+}
+
+DIV.trade DIV.bag_0{
+	overflow-x:	hidden;
+	overflow-y:	scroll;
+	height: 245px;
+	width: 260px;
+	margin: 0 auto;
+
+}
+DIV.filter FORM{
+	float: right;
+}
+DIV.filter DIV.money{
+	float: left;
+}
+
+.pages {text-align:center;margin-right:20px; font-size:12px}
+.pages A.active {text-decoration:none; font-weight:bold;}
+
+
+TABLE.popup_item{		widtH: 100%; border-collapse: collapse; border: 1px solid #7b5a34;}
+TABLE.popup_item TD{	padding-bottom:5px;}
+TABLE.popup_item TD.image{	width: 70px;vertical-align:top;		padding:5px 5px;}
+
+TABLE.popup_item TH{	border: 1px solid #7b5a34;	background: #d4b387;}
+
+
+.sells_count{
+	position:absolute;
+	color:white;
+	font-weight:bold;
+	width: 56px;
+	height:18px;
+	display:block;
+	margin-left:1px;
+	margin-top:41px;
+	padding:0px;
+	text-align:right;
+}
+.sells_countL{
+	width:154px;
+	margin-top:141px;
+
+
+}
+/* openable box */
+DIV.box_wrap{
+	background: #e0d1ba;
+	padding: 1px;
+	border-left: 1px solid #e6d7bf;
+	border-right: 1px solid #e6d7bf;
+	margin-bottom: 10px;
+	width: 525px;
+}
+
+DIV.box_title{
+	background: #e3d4b7  no-repeat 5px 5px	;
+	border: 1px solid #ebddc5;
+	height:24px;
+	line-height:24px;
+	font-weight: bold;
+	cursor: pointer;
+}
+DIV.box_body{
+	background: #dbcbad;
+	border: 1px solid #ebddc5;
+	padding: 10px 5px;
+}
+DIV.box_wrap .title_show{
+	background-image: url(/images/buttons/but_up_n.png);
+}
+DIV.box_wrap .title_show:hover{
+	background-image: url(/images/buttons/but_up_a.png);
+
+	background-color: #ece1cc;
+}
+
+DIV.box_wrap .title_hide{
+	background-image: url(/images/buttons/but_down_n.png);
+}
+DIV.box_wrap .title_hide:hover{
+	background-image: url(/images/buttons/but_down_a.png);
+	background-color: #ece1cc;
+}
+DIV.box_wrap DIV.shown{
+	display:block;
+}
+DIV.box_wrap DIV.hidden{
+	display:none;
+}
+
+/* Clan Info */
+
+TD.clan_img{
+	width: 200px;
+	background: left top no-repeat;
+}
+TABLE.clan_info{
+	width: 100%;
+
+}
+TD.clan_info TABLE TD{
+	border:0;
+	padding: 0 5px;
+	line-height: 23px;
+}
+TD.clan_info TABLE{
+	width: 100%;
+	border-collapse: collapse;
+}
+TABLE.tosend{
+	width: 100%;
+}
+TABLE.tosend TD{
+	width: 33%;
+	text-align: center;
+}
+TABLE.tosend TD INPUT{
+	width: 100px;
+}
+
+TABLE.wars TD {
+	vertical-align: top;
+}
+TABLE.wars TD.line {
+	height: 1px;
+	line-height:1px;
+	padding: 0;
+}
+TABLE.wars A.leader {
+	font-size:13px;
+	font-weight:bold;
+	line-height: 20px;
+}
+TABLE.assault_users{
+	width: 254px;
+	margin-bottom:10px;
+}
+TABLE.assault_users TH{
+	padding-right:10px;
+}
+TABLE.assault_users TD.vote{
+	text-align:left !important;
+	padding-left: 40px;
+}
+
+TABLE.ass_items{
+	width:100%;
+}
+TABLE.ass_items	TD {
+/*	padding-left: 60px;*/
+	width: 20%;
+	text-align:center;
+	height: 80px;
+	padding-top: 60px;
+	border: 1px solid #ebdecb;
+}
+TABLE.ass_items	TD.c1 {
+	background:url(/images/ico_zver.jpg) center top no-repeat;
+}
+TABLE.ass_items	TD.c2 {
+	background:url(/images/ico_tank.jpg) center top no-repeat;
+}
+TABLE.ass_items	TD.c3 {
+	background:url(/images/items/Item_3s.jpg) center top no-repeat;
+}
+TABLE.ass_items	TD.c4 {
+	background:url(/images/items/Item_60000s.jpg) center top no-repeat;
+}
+TABLE.ass_items	TD.c5 {
+	background:url(/images/items/Item_60001s.jpg) center top no-repeat;
+}
+
+
+DIV#assault_body	.hits{
+	height: 30px;
+	width: 100%;
+
+}
+DIV#assault_body	.hits TD{
+	text-align:center;
+	width: 50%;
+}
+DIV#assault_body TABLE.users{
+	width: 100%;
+}
+DIV#assault_body TABLE.users TD{
+	vertical-align:top;
+
+}
+DIV#assault_body TABLE.enemy,
+DIV#assault_body TABLE.my{
+	width: 100%;
+
+}
+DIV#assault_body TABLE.enemy TD,
+DIV#assault_body TABLE.my TD,
+DIV#assault_body TABLE.enemy TH,
+DIV#assault_body TABLE.my TH
+{
+	text-align:center;
+	height: 27px;
+}
+DIV#assault_body TD.c{
+	width: 44px;
+}
+DIV#assault_body TD.c IMG{
+	width: 20px;
+}
+DIV#assault_body TD.h0_1{
+	background:url(/images/ico_status_0_1.png) center center no-repeat;
+}
+DIV#assault_body TD.h1_1{
+	background:url(/images/ico_status_1_1.png) center center no-repeat;
+}
+DIV#assault_body TD.h2_1{
+	background:url(/images/ico_status_2_1.png) center center no-repeat;
+}
+DIV#assault_body TD.h3_1{
+	background:url(/images/ico_status_3_1.png) center center no-repeat;
+}
+DIV#assault_body TD.h0_2{
+	background:url(/images/ico_status_0_2.png) center center no-repeat;
+}
+DIV#assault_body TD.h1_2{
+	background:url(/images/ico_status_1_2.png) center center no-repeat;
+}
+DIV#assault_body TD.h2_2{
+	background:url(/images/ico_status_2_2.png) center center no-repeat;
+}
+DIV#assault_body TD.h3_2{
+	background:url(/images/ico_status_3_2.png) center center no-repeat;
+}
+
+
+TABLE.clan_upgrades{
+	width: 97%;
+	border-collapse:collapse;
+}
+TABLE.clan_upgrades TD{
+	border-top: 1px solid #ebddc5;
+	padding: 0 5px;
+	text-align:center;
+}
+TABLE.clan_upgrades TD.link{
+	width: 90px;
+	padding:0;
+	font-size:11px;
+}
+TABLE.clan_upgrades TD.info{
+	font-size:10px;
+}
+
+/** Сокровищница */
+TABLE.treasury{
+	width: 99%;
+}
+
+TABLE.treasury INPUT{
+	width: 100px;
+	text-align:center;
+}
+TABLE.treasury TD,
+TABLE.treasury TH{
+	height:23px;
+}
+
+TABLE.treasury_history TD.money{
+	text-align:right;
+	padding-right:20px;
+}
+TABLE.treasury_now #t1{
+	background-position: 130px center ;
+}
+TABLE.treasury_now #t2{
+	background-position: 70px center ;
+}
+
+
+DIV.assault_history{
+	margin-left:20px;
+	text-align:left;
+	width:100%;
+}
+DIV.assault_history DIV.assault_history{
+	margin-left:0;
+}
+DIV.assault_history span.d{
+	font-weight:bold;
+
+}
+
+TABLE.embassy_warriors #t1{		background-position: 110px center ;							}
+TABLE.embassy_warriors #t2{		background-position: 60px center ;		width: 75px;		}
+TABLE.embassy_warriors #t3{		background-position: 60px center ;		width: 75px;		}
+TABLE.embassy_warriors #t4{		background-position: 70px center ;		width: 75px;		}
+TABLE.embassy_warriors #t5{		background-position: 60px center ;		width: 75px;		}
+
+
+TABLE.post_table {
+	width: 95%;
+
+}
+TABLE.post_table TD{height:22px;}
+TABLE.post_table TD.c1{	width:40px;		}
+TABLE.post_table TD.c2{	width:120px;	white-space:nowrap;}
+
+TABLE.post_select TD.c1{	width:260px;text-align:right;}
+
+TABLE.shtab{
+	width:505px;
+}
+TABLE.shtab TR.row_1 TD{
+	height: 30px;
+	padding:0;
+}
+TABLE.shtab .c0{	width: 20px;	}
+TABLE.shtab .c1{	width: 120px;	}
+TABLE.shtab .c2{	width: 80px;	}
+TABLE.shtab .c3{	width: 40px;	}
+TABLE.shtab .c4{	}
+TABLE.shtab .c5{	width: 100px;	}
+
+TABLE.shtab .c0{	width:20px;}
+TABLE.shtab .c3n{	}
+
+TABLE.shtab A {text-decoration:none;}
+TABLE.shtab2{
+	width:100%;
+}
+
+
+/** Shop */
+TABLE.shop	TD.img2{
+	width: 60px;
+}
+TABLE.shop	TD.cmd{
+	width: 70px;
+	text-align:right;
+}
+TABLE.shop DIV.rows{
+	line-height:22px;
+}
+.item_shop_info{
+	line-height:20px;
+	font-size:9pt;
+	vertical-align:top;
+}
+CENTER.shop span.price,
+TABLe.shop span.price{
+	line-height:30px;
+	vertical-align: middle;
+}
+
+CENTER.shop .cmd,
+TABLE.shop .cmd{
+	float:right;
+}
+
+TABLE.shop .remove INPUT.cmd{
+	float:none ;
+}
+
+TABLE.gifts{
+	width: 200px;
+}
+TABLE.well TR.r1 TD{padding: 0;}
+TABLE.well TD {padding: 15px 0;}
+
+/** Login PAge */
+#loginForm INPUT.email_sh{
+	width: 80px !important;
+}
+
+/** Home */
+
+#houseDiv DIV,
+#houseDiv{width: 504px;height:200px; behavior: url(css/iepngfix.htc); }
+
+
+/** Крепость */
+DIV.castle_img	{background:url(/images/guilds/Castle.jpg) no-repeat top center; width:504px; height:250px }
+TABLE.castle 	{ width: 500px}
+.castle TH		{ width:190px; height:30px}
+.castle TH.img	{width: 60px !important; }
+
+.castle TD		{ vertical-align:middle;}
+.castle TD.txt	{ width:190px;}
+.castle img		{ width: 60px;height:60px}
+.castle span.info	{ font-size:80%;}
+
+.castle2 TD.img	{width: 100px !important; }
+.castle2 TD.img img	{ width: 100px;height:75px}
+
+/** Гильдии */
+DIV.guild_hall{
+	height: 240px;
+	vertical-align:bottom;
+	background-repeat:no-repeat;
+	padding:0;
+	padding-bottom: 10px;
+	background-position:center center;
+}
+DIV.guild_hall DIV.guild_text{
+	height:100px;
+	vertical-align:bottom;
+}
+
+/** Гильдии - общий зал - коментарии */
+DIV.comment .box_title{
+	text-align:left;
+	padding-left: 30px;
+}
+DIV.comment .box_title span{
+ 	float:right;
+	margin-right:10px;
+}
+DIV.comment .box_title span span{
+	margin-right:0px !important;
+	float:none;
+}
+
+.itemSm {width:60px;height:60px;}
+
+/** Юмор */
+TABLE.humor	TD{line-height:20px;}
+TABLE.humor	TD.c1{	height:100px}
+TABLE.humor	TD.c2 IMG,
+TABLE.humor	TD.c2{width:170px;height:180px;}
+TABLE.humor	TD INPUT.text{width:230px;}
+
+
+
+
+DIV#humor_quotes	.box_title ,
+DIV#humor_quotes	.title{
+	text-align:left;
+	font-size:11px;
+}
+
+DIV#humor_quotes	.box_title{
+	padding-left:25px;
+	padding-right:5px;
+	text-align:center !important;
+	line-height:26px;
+}
+
+DIV#humor_quotes	.box_title .r,
+DIV#humor_quotes	.title .r{
+	float:right;
+}
+DIV#humor_quotes	.box_title .date,
+DIV#humor_quotes	.title .date{
+	font-size:10px;
+}
+
+CENTER.humor_footer{
+	margin: 10px 0 ;
+}
+
+/* player stats */
+TABLE.playerStats{
+	border-collapse: collapse;
+}
+TABLE.playerStats TD.c4{
+	width:45px;
+	text-align:right;
+	padding-right:5px;
+	font-size: 11px;
+}
+TABLE.playerStats TD{
+	height:20px;
+
+}
+
+DIV#moreGifts{
+	margin-left:10px;
+	text-align:left !important;
+	padding-bottom:20px;
+}
+DIV#moreGifts CENTER{
+	padding:5px;
+}
+DIV#moreGifts #moreCmd{
+	float:right;
+	margin-right:34px;
+}
+
+
+/** Премия */
+
+DIV#premia{
+	width: 100%;
+	background: url(/images/premia-c1.png);
+	text-align:right;
+	height: 25px;
+}
+DIV#premia DIV{
+
+
+	width: 50%;
+
+	background: url(/images/premia-c2.png);
+	height: 25px;
+	float:right;
+
+}
+DIV#premia3{position:absolute; width:100%;text-align:center;}
+DIV#premia3 * {padding:0 !important;}
+DIV#premia3 TABLE{
+	margin: 0 auto 0;
+	width: 985px;
+	background: url(/images/premia-bg.png) repeat-y;
+	height: 25px;
+	border-collapse:collapse;
+}
+DIV#premia3 TD A, DIV#premia3 TD {color:white;;text-align:Center;}
+DIV#premia3  #b	{background: url(/images/premia-1.png) 0px no-repeat; width: 230px;font-weight:bold}
+DIV#premia3  #e	{width: 230px;font-weight:bold}
+DIV#premia3  #c	span{color: #f8e7bb;font-weight:bold;}
+
+/** Царь горы */
+DIV#king{
+	background: url(/images/bg_king_left.png) no-repeat top center;
+	text-align:center;
+	width: 210px;
+	height:270px;
+	padding:40px 0px 20px 0px;
+	color: #4c1e10;
+}
+DIV#king A{
+	display:block;
+	color: #4c1e10;
+}
+DIV#king A.nb{
+	display:inline;
+
+}
+DIV#king IMG.avat{
+	width: 126px;
+	height: 160px;
+}
+
+A.link_wiki{
+	background: url(/images/ico_botvapedia_p.png) left top no-repeat;
+	display:block;
+	margin-left: 20px;
+	margin-top: 20px;
+	padding:1px 0 0 70px;
+
+	height:50px;
+	font-weight: bold;
+	color: #d4c5a8;
+	width:100px;
+	text-align:center;
+}
+A.link_wiki:hover{
+	background: url(/images/ico_botvapedia_a.png) left top no-repeat;
+	color: #eaddca;
+
+}
+
+/** Action top */
+
+DIV#action_top{
+	margin-left:20px;
+	position:absolute;
+	background: url(/images/bg_action_top.png) no-repeat top center;
+	text-align:left;
+	width: 187px;
+	height:320px;
+	padding:45px 0px 20px 0;
+	color: #4c1e10;
+
+}
+
+DIV#action_top A{
+	display:block;
+	color: #4c1e10;
+	margin-left:25px;
+}
+DIV#action_top A.nb{
+	display:block;
+	color: #4c1e10;
+	margin-left:0;
+}
